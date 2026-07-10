@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>App policies — Anthony Tamasi</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f5f4f0;
+        --text: #1a1c1e;
+        --dim: #6b7076;
+        --hairline: #d9d7d1;
+        --accent: #2a5c46;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0e1013;
+          --text: #f2f3f5;
+          --dim: #8a9099;
+          --hairline: #262a30;
+          --accent: #7fbfa0;
+        }
+      }
+      body {
+        margin: 0 auto;
+        max-width: 640px;
+        padding: 48px 20px 64px;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.6 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      h1 {
+        font-size: 26px;
+        letter-spacing: -0.3px;
+        margin: 0 0 6px;
+      }
+      p.sub {
+        color: var(--dim);
+        margin-top: 0;
+      }
+      ul {
+        padding-left: 0;
+        list-style: none;
+      }
+      li {
+        border-top: 1px solid var(--hairline);
+        padding: 14px 2px;
+      }
+      li:last-child {
+        border-bottom: 1px solid var(--hairline);
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--dim);
+        margin-top: 40px;
+      }
+      footer {
+        margin-top: 48px;
+        color: var(--dim);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>App policies</h1>
+    <p class="sub">Privacy policies and support for apps by Anthony Tamasi.</p>
+
+    <h2>Privacy policies</h2>
+    <ul>
+      <li><a href="./nextset/">nextset</a> — strength training that runs your program on-device</li>
+      <li><a href="./bookmarked/">Bookmarked</a> — track the books you read</li>
+      <li><a href="./fitly/">Fitly</a> — food &amp; macro tracking with recipes and an optional AI assistant</li>
+    </ul>
+
+    <h2>Support</h2>
+    <p>
+      Questions, bug reports, or data requests for any of these apps: email
+      <a href="mailto:anthonymtamasi@gmail.com">anthonymtamasi@gmail.com</a> or open an issue on
+      <a href="https://github.com/amtamasi/policies/issues">GitHub</a>. I read both.
+    </p>
+
+    <footer>These pages are the canonical policies linked from each app's App Store listing.</footer>
+  </body>
+</html>
