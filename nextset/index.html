@@ -75,7 +75,7 @@
     <p><a href="../">← All policies</a></p>
 
     <h1>nextset — Privacy Policy</h1>
-    <p class="sub">Effective July 10, 2026</p>
+    <p class="sub">Effective July 11, 2026</p>
 
     <h2>What nextset is</h2>
     <p>
@@ -85,9 +85,10 @@
 
     <h2>Data we collect</h2>
     <p>
-      None. I collect nothing. nextset has no accounts, no analytics, and no servers — the app makes no network
-      requests at all. Your training data never leaves your phone unless you export it yourself or turn on Apple
-      Health saving (below).
+      nextset has no accounts, ads, product analytics, or nextset backend. Your training data never leaves your phone
+      unless you export it yourself or turn on Apple Health saving (below). Some release builds may offer optional
+      crash diagnostics as described below; those diagnostics never include your programs, weights, sets, or workout
+      history.
     </p>
 
     <h2>Where your data lives</h2>
@@ -109,10 +110,16 @@
 
     <h2>Crash reports</h2>
     <p>
-      None are sent. The current version has crash-reporting code built in but not configured, so it never starts and
-      nothing is sent — not to me, not to anyone. If a future version enables optional crash reporting, it will carry
-      crash diagnostics only — never your training data — it will be controlled by a visible switch in Settings, and
-      this policy will be updated first.
+      Crash reporting is optional and uses Sentry. When it is available in a release build and enabled in Settings,
+      an app crash may send a stack trace, app version, iOS version, device model, and technical identifiers needed to
+      group the same crash. The reports are not linked to your identity and are not used for advertising or tracking.
+      nextset disables Sentry's default personal-data collection, session tracking, performance tracing, screenshots,
+      and view-hierarchy capture. It never attaches your training data. You can turn Crash reports off in Settings;
+      turning it off takes full effect the next time the app launches.
+    </p>
+    <p>
+      If crash reporting is not configured in a build, or if it is disabled, nextset sends no diagnostics. Development
+      builds and Expo Go do not send crash reports.
     </p>
 
     <h2>Deleting your data</h2>
